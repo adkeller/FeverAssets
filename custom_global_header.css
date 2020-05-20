@@ -130,23 +130,23 @@ h6.pt-2 {
     background-color: #e03a3e;
     color: #fff;
 }
-.social-button-group a div {
+.social-button-group a span {
     display: block;
     margin: auto;
     position: relative;
     padding-left: 31px;
 }
-.social-button-group a:nth-child(1) div {
+.social-button-group a:nth-child(1) span {
     padding-left: 26px;
 }
-.social-button-group a:nth-child(5) div {
+.social-button-group a:nth-child(5) span {
     padding-left: 24px;
 }
 .social-button-group a:nth-child(5) i {
     font-size: 28px;
     margin-top: -14px;
 }
-.social-button-group a:nth-child(6) div {
+.social-button-group a:nth-child(6) span {
     padding-left: 26px;
 }
 .social-button-group a:nth-child(6) i {
