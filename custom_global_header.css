@@ -1,0 +1,216 @@
+.wallpaper .grid {
+    overflow: hidden;
+}
+.wallpaper .grid img.alignnone {
+    margin: 5px 20px 15px 0;
+}
+.wallpaper-filter {
+    padding: 10px 30px 10px 0;
+}
+select.filters-select {
+    height: 51px;
+    font-size: 100%;
+}
+a.grid-item.zoom:after {
+    content: "\f0e2";
+    display: block;
+    width: 27px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    margin-left: -23.5px;
+    margin-top: -25px;
+    position: absolute;
+    font-family: "Font Awesome 5 Pro";
+    color: #fff;
+    font-size: 27px;
+    opacity: 0.5;
+}
+h6.pt-2 {
+    padding-top: 10px;
+}
+.wallpaper .page-content {
+    max-width: 85rem;
+}
+.wallpaper .page-header {
+    display: none;
+}
+@media only screen and (max-width: 40em) {
+    .wallpaper-sort {
+        width: 100%;
+    }
+    .wallpaper-filter {
+        padding: 10px 0 10px 0;
+    }
+    .wallpaper .grid img.alignnone {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.video iframe,
+.video object,
+.video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.lined-heading,
+.social-button-group,
+.social-player-group {
+    max-width: 1100px;
+    margin: auto;
+}
+.lined-heading p,
+.social-button-group p,
+.social-player-group p {
+    display: none;
+    height: 0;
+    width: 0;
+}
+.lined-heading {
+    position: relative;
+    z-index: 0;
+}
+.lined-heading h2,
+.lined-heading h3 {
+    background-color: #fff;
+    display: inline-block;
+    padding: 30px;
+}
+.lined-heading:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    height: 1px;
+    background-color: #d2d2d2;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+}
+.social-button-group,
+.social-player-group {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.social-button-group a {
+    display: inline-flex;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    background-color: #fff;
+    border: 1px solid #e03a3e;
+    color: #e03a3e;
+    margin: 0.5%;
+    padding: 9px 16px;
+    line-height: 40px;
+    font-weight: 700;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.social-button-group a:hover {
+    background-color: #e03a3e;
+    color: #fff;
+}
+.social-button-group a span {
+    display: block;
+    margin: auto;
+    position: relative;
+    padding-left: 31px;
+}
+.social-button-group a:nth-child(1) span {
+    padding-left: 26px;
+}
+.social-button-group a:nth-child(5) span {
+    padding-left: 24px;
+}
+.social-button-group a:nth-child(5) i {
+    font-size: 28px;
+    margin-top: -14px;
+}
+.social-button-group a:nth-child(6) span {
+    padding-left: 26px;
+}
+.social-button-group a:nth-child(6) i {
+    font-size: 20px;
+    margin-top: -10px;
+}
+.social-button-group i {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 24px;
+    margin-top: -12px;
+}
+.social-player {
+    width: 18%;
+    margin: 1%;
+    background-color: #f3f2f2;
+    text-align: center;
+}
+.social-player a {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    display: inline-block;
+}
+.social-player a:hover {
+    color: #002d62;
+}
+.social-player .social {
+    padding: 3px 0 8px;
+}
+.social-player h5 {
+    margin-bottom: 0;
+    font-weight: 700;
+    padding: 3px;
+    position: relative;
+}
+.social-player h5:after {
+    content: "";
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25%;
+    background-color: #e03a3e;
+}
+.social-player i {
+    font-size: 24px;
+    padding: 4px;
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+    .social-player {
+        width: 23%;
+    }
+}
+@media (max-width: 768px) and (min-width: 400px) {
+    .social-player {
+        width: 31%;
+    }
+}
+@media (max-width: 400px) {
+    .social-player {
+        width: 48%;
+    }
+}
